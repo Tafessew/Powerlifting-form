@@ -26,6 +26,8 @@ void main() {
 
 // === VIEW & CONTROLLER ===
 class PowerliftingApp extends StatelessWidget {
+  const PowerliftingApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,6 +38,8 @@ class PowerliftingApp extends StatelessWidget {
 }
 
 class PowerliftingForm extends StatefulWidget {
+  const PowerliftingForm({super.key});
+
   @override
   _PowerliftingFormState createState() => _PowerliftingFormState();
 }
